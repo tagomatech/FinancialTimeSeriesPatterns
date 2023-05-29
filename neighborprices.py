@@ -68,7 +68,7 @@ class NeighborPrices:
 
         return self.neighbor_data
 
-
+"""
 def main():
                                         
     neighbor_data = NeighborPrices('Matif OSR', 'IJ1 Comdty')
@@ -78,3 +78,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+"""
