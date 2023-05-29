@@ -63,7 +63,6 @@ class NeighborPrices:
 
         self.neighbor_data = df.assign(Return = ser)
 
-
     def get(self):
 
         return self.neighbor_data
