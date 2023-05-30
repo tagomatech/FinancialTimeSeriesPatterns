@@ -1,4 +1,4 @@
-# neighborchunks.py
+# neighbors.py
 # tagoma May-23
 
 from blp import blp
