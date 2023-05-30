@@ -8,7 +8,6 @@ import datetime as dt
 import numpy as np
 import pandas as pd
 
-
 class NeighborChunks:
     def __init__(self,
                  df:pd.DataFrame,
