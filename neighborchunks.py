@@ -78,7 +78,6 @@ class NeighborChunks:
         
         self.df_chunks = df_chunks.reset_index(drop=True)
         
-
         # Compute neighbor
         X = df_chunks[df_chunks['Chunk'] < nb_of_chunks].pivot(columns=['Feature'], index='Chunk',  values='Return').values
         y = df_chunks[df_chunks['Chunk'] == nb_of_chunks].pivot(columns=['Feature'], index='Chunk',  values='Return').values
