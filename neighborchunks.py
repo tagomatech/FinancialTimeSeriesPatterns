@@ -1,5 +1,5 @@
-# neighbors.py
-# tagoma May-23
+# neighborchunks.py
+# tagoma Jun-23
 
 from blp import blp
 from typing import Union
@@ -8,7 +8,9 @@ import datetime as dt
 import numpy as np
 import pandas as pd
 
+
 class NeighborChunks:
+    
     def __init__(self,
                  df:pd.DataFrame,
                  nb_of_chunks:Union[int, None]=None,
@@ -111,6 +113,8 @@ class NeighborChunks:
 
         self.df_chunks = df_chunks#print(indices(idx, chunk_length))
 
+        
     
     def get(self):
-        return self.df_chunks  
+        
+        return self.df_chunks
